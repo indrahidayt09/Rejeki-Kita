@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejeki Kita</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- ion icon -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <span>Rejeki Kita</span>
+        </a>
+        
+        <div class="navbar-nav">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#program">Program</a>
+            <a href="#gallery">Galeri</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        
+        <div class="navbar-extra">
+            <a href="#" id="donate-btn" class="donate-button">
+                <span>Donasi</span>
+                <ion-icon name="logo-whatsapp" class="whatsapp"></ion-icon>
+            </a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Berbagi Rejeki, <span>Membahagiakan Sesama</span></h1>
+            <p>Komunitas peduli yang mengajak semua orang untuk berbagi rejeki kepada yang membutuhkan.</p>
+            <div class="hero-buttons">
+                <a href="#" class="cta-button">Gabung Komunitas</a>
+                <a href="#" class="secondary-button">Lihat Program</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/about.jpg" alt="Tentang Rejeki Kita">
+            </div>
+            <div class="about-content">
+                <h2><span>Tentang</span> Kami</h2>
+                <p>Rejeki Kita adalah komunitas sosial yang berfokus pada kegiatan sedekah dan berbagi kepada yang membutuhkan. Berdiri sejak 2018, kami telah membantu ribuan penerima manfaat di seluruh Indonesia.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i data-feather="users"></i>
+                        <h3>500+</h3>
+                        <p>Relawan</p>
+                    </div>
+                    <div class="stat-item">
+                        <i data-feather="heart"></i>
+                        <h3>120+</h3>
+                        <p>Program</p>
+                    </div>
+                    <div class="stat-item">
+                        <i data-feather="map-pin"></i>
+                        <h3>15</h3>
+                        <p>Kota</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Program Section -->
+    <section class="program" id="program">
+        <h2><span>Program</span> Kami</h2>
+        <p class="section-subtitle">Berbagai kegiatan rutin dan khusus untuk berbagi kebahagiaan</p>
+        
+        <div class="program-container">
+            <div class="program-card">
+                <div class="program-icon">
+                    <i data-feather="package"></i>
+                </div>
+                <h3>Bansos Rutin</h3>
+                <p>Distribusi sembako bulanan untuk keluarga kurang mampu di berbagai daerah.</p>
+            </div>
+            
+            <div class="program-card">
+                <div class="program-icon">
+                    <i data-feather="book-open"></i>
+                </div>
+                <h3>Beasiswa Pendidikan</h3>
+                <p>Bantuan biaya pendidikan untuk anak-anak dari keluarga prasejahtera.</p>
+            </div>
+            
+            <div class="program-card">
+                <div class="program-icon">
+                    <i data-feather="home"></i>
+                </div>
+                <h3>Rumah Sedekah</h3>
+                <p>Pembangunan dan renovasi rumah untuk yang membutuhkan.</p>
+            </div>
+            
+            <div class="program-card">
+                <div class="program-icon">
+                    <i data-feather="umbrella"></i>
+                </div>
+                <h3>Tanggap Bencana</h3>
+                <p>Penyaluran bantuan untuk korban bencana alam di berbagai daerah.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2><span>Galeri</span> Kegiatan</h2>
+        <p class="section-subtitle">Momen berharga dalam setiap aksi kebaikan kami</p>
+        
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/img1.jpg" alt="Kegiatan 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img2.jpg" alt="Kegiatan 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img3.jpg" alt="Kegiatan 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img4.jpg" alt="Kegiatan 4">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img5.jpg" alt="Kegiatan 4">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2><span>Hubungi</span> Kami</h2>
+        <p class="section-subtitle">Kami selalu terbuka untuk kerjasama dan pertanyaan</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i data-feather="mail"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@rejekikita.org</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i data-feather="phone"></i>
+                    <div>
+                        <h3>Telepon</h3>
+                        <p>+62 812 3456 7890</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i data-feather="map-pin"></i>
+                    <div>
+                        <h3>Alamat</h3>
+                        <p>Jl. Mawar No. 123, Dago Bandung</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Nama Anda" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Email Anda" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Subjek">
+                </div>
+                <div class="input-group">
+                    <textarea placeholder="Pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Rejeki Kita</h3>
+                <p>Berbagi rejeki untuk kebahagiaan bersama. Mari bergabung dalam kebaikan.</p>
+                <div class="social-links">
+                    <a href="#"><i data-feather="facebook"></i></a>
+                    <a href="#"><i data-feather="instagram"></i></a>
+                    <a href="#"><i data-feather="twitter"></i></a>
+                    <a href="#"><i data-feather="youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Dapatkan update kegiatan kami via email</p>
+                <form>
+                    <input type="email" placeholder="Alamat Email">
+                    <button type="submit"><i data-feather="send"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Rejeki Kita. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Donation Modal -->
+    <div class="modal" id="donation-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Donasi untuk Rejeki Kita</h2>
+            <form id="donation-form">
+                <div class="input-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" required>
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" required>
+                </div>
+                <div class="input-group">
+                    <label>Nominal Donasi (Rp)</label>
+                    <input type="number" required>
+                </div>
+                <div class="input-group">
+                    <label>Pilih Program</label>
+                    <select>
+                        <option>Bansos Rutin</option>
+                        <option>Beasiswa Pendidikan</option>
+                        <option>Rumah Sedekah</option>
+                        <option>Tanggap Bencana</option>
+                        <option>Lainnya</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Metode Pembayaran</label>
+                    <div class="payment-methods">
+                        <label>
+                            <input type="radio" name="payment" checked>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/2560px-Bank_Central_Asia.svg.png" alt="BCA">
+                        </label>
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bank_Mandiri_logo_2016.svg/1024px-Bank_Mandiri_logo_2016.svg.png" alt="Mandiri">
+                        </label>
+                        <label>
+                            <input type="radio" name="payment">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Gopay_logo.svg/1024px-Gopay_logo.svg.png" alt="Gopay">
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">Donasi Sekarang</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="javascript/script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
